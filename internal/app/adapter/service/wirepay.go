@@ -39,7 +39,7 @@ func GetPaymentUrl(rq model.FundRequest) (interface{}, error) {
 		TxRef:          fmt.Sprintf("%v", txRef),
 		Amount:         fmt.Sprintf("%f", float64(rq.Amount)),
 		Currency:       strings.ToUpper(rq.Currency),
-		RedirectUrl:    "https://stripe.com",
+		RedirectUrl:    "https://frontend url",
 		PaymentOptions: "",
 		Customer: model.Customer{
 			ID:    int(user.ID),
