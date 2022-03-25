@@ -18,7 +18,7 @@ import (
 	"gorm.io/gorm"
 )
 
-func GetPaymentUrlUrl(rq model.FundRequest) (interface{}, error) {
+func GetPaymentUrl(rq model.FundRequest) (interface{}, error) {
 	fmt.Println(rq)
 	db := postgres.Connection()
 	method := "POST"
