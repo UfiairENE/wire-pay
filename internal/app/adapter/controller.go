@@ -19,8 +19,8 @@ func Router() *gin.Engine {
 	r := gin.Default()
 	ctrl := Controller{}
 	r.POST("/createaccount", ctrl.createaccount)
-	r.GET("/getpaymenturl", ctrl.getPaymentUrl)
 	r.GET("/getbalance/:user_id", ctrl.getbalance)
+	r.GET("/getpaymenturl", ctrl.getPaymentUrl)
 	r.PUT("/withdraw/:user_id", ctrl.withdraw)
 	r.GET("/verifypayment/:transaction_id", ctrl.verifyPayment)
 	return r
