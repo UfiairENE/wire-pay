@@ -8,5 +8,5 @@ import (
 func main() {
 	postgres.StartDB()
 	r := adapter.Router()
-	r.Run("")
+	r.Run()
 }
