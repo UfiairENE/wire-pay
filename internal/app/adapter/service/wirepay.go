@@ -39,7 +39,7 @@ func GetPaymentUrlUrl(rq model.FundRequest) (interface{}, error) {
 		TxRef:          fmt.Sprintf("%v", txRef),
 		Amount:         fmt.Sprintf("%f", float64(rq.Amount)),
 		Currency:       strings.ToUpper(rq.Currency),
-		RedirectUrl:    "https://trove-assessment.herokuapp.com/loan",
+		RedirectUrl:    "https://wiree-pay.herokuapp.com/",
 		PaymentOptions: "",
 		Customer: model.Customer{
 			ID:    int(user.ID),
