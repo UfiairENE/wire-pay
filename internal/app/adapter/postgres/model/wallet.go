@@ -4,6 +4,7 @@ type Amount interface {
 	TableName() string
 }
 
+
 // wallet is model of wallets
 type Wallet struct {
 	ID        uint

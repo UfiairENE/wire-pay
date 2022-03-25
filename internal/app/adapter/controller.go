@@ -87,3 +87,4 @@ func (ctrl Controller) withdraw(c *gin.Context) {
 	}
 	c.JSON(200, map[string]interface{}{"data": "withdrawal successful"})
 }
+

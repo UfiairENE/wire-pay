@@ -7,4 +7,3 @@ type NewUser struct {
 	Email    		string
 	Password        string
 }
-

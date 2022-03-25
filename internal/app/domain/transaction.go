@@ -13,4 +13,3 @@ type Transacton struct {
 	Time          time.Time
 	TransactionID string    
 }
-

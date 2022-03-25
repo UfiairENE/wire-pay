@@ -6,6 +6,7 @@ import (
 	"github.com/UfiairENE/send-wire-pay/internal/app/domain/valueobject"
 )
 
+
 //create user
 func Create(u valueobject.NewUser) interface{} {
 	db := postgres.Connection()

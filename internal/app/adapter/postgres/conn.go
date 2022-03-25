@@ -35,3 +35,4 @@ func StartDB() (db *gorm.DB) {
 	postgresdb = db
 	return db
 }
+

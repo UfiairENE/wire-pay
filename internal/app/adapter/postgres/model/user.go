@@ -9,6 +9,7 @@ type Tabler interface {
 	TableName() string
 }
 
+
 type User struct {
 	// gorm.Model
 	ID          uint

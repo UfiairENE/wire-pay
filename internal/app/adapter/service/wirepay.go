@@ -219,3 +219,4 @@ func Withdraw(form model.WithdrawalRequest, userID int) error {
 	return nil
 
 }
+

@@ -25,4 +25,3 @@ type AccessDetails struct {
 
 //AuthModel ...
 type AuthModel struct{}
-

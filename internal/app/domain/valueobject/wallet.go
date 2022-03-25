@@ -6,7 +6,6 @@ type Currency struct {
 	USD string
 }
 
-
 type Wallet struct {
 	ID       int
 	Currency string

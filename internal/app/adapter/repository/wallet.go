@@ -10,6 +10,7 @@ import (
 	"gorm.io/gorm"
 )
 
+
 func CreateWalletOnsignUp(db *gorm.DB, userID uint) model.Wallet {
 	wallet := model.Wallet{User_id: int(userID)}
 	result := db.Create(&wallet)

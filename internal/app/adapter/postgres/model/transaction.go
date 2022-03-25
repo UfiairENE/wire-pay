@@ -25,6 +25,7 @@ type Transaction struct {
 	UserID        uuid.UUID
 }
 
+
 type FundRequest struct {
 	UserID   int
 	Currency string

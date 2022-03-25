@@ -8,11 +8,6 @@ import (
 	"github.com/google/uuid"
 )
 
-const (
-	minimumDepositAmount    = 50 // least possible amount that can be deposited into an account
-	minimumWithdrawalAmount = 10 // least possible amount that can be withdrawn from an account
-)
-
 type Repository interface {
 	Add(model.Transaction) (model.Transaction, error)
 	GetTransactions(userId uuid.UUID, from time.Time, limit int) (*[]model.Transaction, error)

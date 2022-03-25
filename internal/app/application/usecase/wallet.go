@@ -11,6 +11,7 @@ func Createwallet(User valueobject.Wallet) model.Wallet {
 	return repository.CreateWallet(User)
 }
 
+
 func GetBalance(Wallet valueobject.Wallet) model.Wallet {
 	return repository.GetBalance(Wallet)
 }
